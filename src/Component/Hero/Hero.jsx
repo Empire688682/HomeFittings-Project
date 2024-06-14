@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css';
 import Navbar from '../Navbar/Navbar';
-import house_Img from '../Assets/House 1.png'
+import house_Img from '../Assets/House_1.png'
 import Arrow_01 from '../Assets/Arrow_01.png'
 
 const Hero = () => {
