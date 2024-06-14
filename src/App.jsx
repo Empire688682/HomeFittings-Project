@@ -1,9 +1,10 @@
 import React from 'react'
+import Hero from './Component/Hero/Hero'
 
 const App = () => {
   return (
-    <div>
-      
+    <div className='App'>
+      <Hero/>
     </div>
   )
 }
