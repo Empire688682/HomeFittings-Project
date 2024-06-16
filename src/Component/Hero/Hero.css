@@ -68,3 +68,117 @@
     transform: translateX(10%) translateY(-30px);
     background-color: transparent;
 }
+
+@media (max-width:1000px){
+    .hero_content .right_colum{
+        flex-basis: 50%;
+    }
+    .hero_content .left_colum{
+        flex-basis: 50%;
+    }
+    .text_arrow img{
+        display: none;
+    }
+    .right_colum img{
+        width: 100%;
+        min-width: 300px;
+        transform: translateX(0%) translateY(0px);
+        background-color: transparent;
+    }
+    .left_colum h2{
+        font-size: 45px;
+        background-color:#AFD4E2 ;
+    }
+    .left_colum p{
+        font-size: 25px;
+        font-weight: 600;
+        padding: 20px 0;
+        background-color:#AFD4E2 ;
+    }
+    .left_colum .btn_links{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        background-color: transparent;
+        justify-content: center;
+    }
+}
+
+@media (max-width:700px){
+    .hero_content .right_colum{
+        flex-basis: 100%;
+    }
+    .right_colum img{
+        width: 100%;
+    }
+    .hero_content .left_colum{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .text_arrow img{
+        display: none;
+    }
+    .right_colum img{
+        width: 100%;
+        min-width: 300px;
+        transform: translateX(0%) translateY(0px);
+        background-color: transparent;
+    }
+    .left_colum h2{
+        font-size: 35px;
+        background-color:#AFD4E2 ;
+    }
+    .left_colum p{
+        font-size: 20px;
+        font-weight: 600;
+        padding: 20px 0;
+        background-color:#AFD4E2 ;
+    }
+    .left_colum .btn_links{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        background-color: transparent;
+        justify-content: center;
+    }
+}
+
+@media (max-width:500px){
+    .hero_content .right_colum{
+        flex-basis: 100%;
+        min-width: 100px;
+    }
+    .right_colum img{
+        width: 100%;
+    }
+    .hero_content .left_colum{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .text_arrow img{
+        display: none;
+    }
+    .right_colum img{
+        width: 100%;
+        min-width: 300px;
+        transform: translateX(0%) translateY(0px);
+        background-color: transparent;
+    }
+    .left_colum h2{
+        font-size: 35px;
+        background-color:#AFD4E2 ;
+    }
+    .left_colum p{
+        font-size: 20px;
+        font-weight: 600;
+        padding: 20px 0;
+        background-color:#AFD4E2 ;
+    }
+    .left_colum .btn_links{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        background-color: transparent;
+        justify-content: center;
+    }
+}

@@ -3,7 +3,7 @@ import './Project.css';
 
 const Project = () => {
   return (
-    <div>
+    <div className='project'>
       Project
     </div>
   )

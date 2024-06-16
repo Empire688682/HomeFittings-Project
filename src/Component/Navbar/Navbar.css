@@ -1,4 +1,4 @@
-.navbar_section{
+.navbar_section {
     width: 100%;
     display: flex;
     align-items: center;
@@ -6,27 +6,116 @@
     flex-wrap: wrap;
     padding-bottom: 50px;
     padding-top: 30px;
-    background-color:#AFD4E2 ;
+    background-color: #AFD4E2;
     padding-left: 5%;
     padding-right: 5%;
+    position: relative;
 }
-.logo h1{
+.logo h1 {
     font-size: 20px;
-    background-color:#AFD4E2 ;
-
+    background-color: #AFD4E2;
 }
-.menu ul{
+.menu ul, .not_menu ul {
     display: flex;
     align-items: center;
     gap: 20px;
-    background-color:#AFD4E2 ;
+    background-color: #AFD4E2;
 }
-.menu ul .link.active{
-   background-color: white;
-   color: black;
+.menu ul .link, .not_menu ul .link {
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 3px;
+    font-weight: 700;
 }
-.menu ul li{
-    list-style: none;
-    font-weight: bolder;
-    background-color:#AFD4E2 ;
+.menu ul .link.active, .not_menu ul .link.active {
+    background-color: #ffff;
+    color: black;
+}
+.menu_open {
+    background-color: transparent;
+    font-size: 35px;
+    display: none;
+}
+.menu_close {
+    background-color: transparent;
+    font-size: 35px;
+    display: none;
+}
+
+
+@media (max-width:700px) {
+    .logo h1 {
+        font-size: 15px;
+    }
+    .not_menu ul {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: #1E3240;
+        flex-direction: column;
+        top: 0;
+        right: 0;
+        min-width: 50%;
+        height: 100vh;
+        justify-content: center;
+        z-index: 99;
+        transform: translateX(100%);
+        transition: .6s ease-in-out;
+    }
+    .not_menu ul .link{
+        background-color: transparent;
+        color: white;
+        padding: 8px;
+        border-radius: 3px;
+        font-weight: 700;
+    }
+    .not_menu ul .link.active {
+        background-color: #ffff;
+        color: black;
+    }
+    .menu ul {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: #1E3240;
+        flex-direction: column;
+        top: 0;
+        right: 0;
+        min-width: 50%;
+        height: 100vh;
+        justify-content: center;
+        z-index: 99;
+        transform: translateX(0);
+        transition: .6s ease-in-out;
+    }
+    .menu ul .link {
+        background-color: transparent;
+        color: white;
+        padding: 8px;
+        border-radius: 3px;
+        font-weight: 700;
+    }
+    .menu ul .link.active {
+        background-color: #ffff;
+        color: black;
+    }
+    .menu ul .link{
+        color: #ffff;
+    }
+    .menu_open {
+        background-color: transparent;
+        font-size: 35px;
+        display: block;
+    }
+    .menu_close {
+        background-color: #ffff;
+        font-size: 35px;
+        display: block;
+        position: absolute;
+        top: 0;
+        margin-top: 40px;
+        cursor: pointer;
+    }
 }
