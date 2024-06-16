@@ -1,35 +1,45 @@
 .hero_section{
     background-color:#AFD4E2 ;
-    padding: 20px 5%;
     width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .hero_content{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: transparent;
 }
 .hero_content .left_colum{
     flex-basis: 49%;
     min-width: 300px;
+    background-color: transparent;
 }
 .left_colum h2{
     font-size: 75px;
+    background-color:#AFD4E2 ;
 }
 .left_colum .text_arrow{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: transparent;
+}
+.text_arrow img{
+    background-color: transparent;
 }
 .left_colum p{
     font-size: 25px;
     font-weight: 600;
     padding: 20px 0;
+    background-color:#AFD4E2 ;
 }
 .left_colum .btn_links{
     display: flex;
     align-items: center;
     gap: 30px;
+    background-color: transparent;
 }
 .btn_links .btn_1{
    background-color: #1E3240; 
@@ -50,9 +60,11 @@
 }
 .hero_content .right_colum{
     flex-basis: 49%;
+    background-color: transparent;
 }
 .right_colum img{
     width: 100%;
     min-width: 300px;
     transform: translateX(10%) translateY(-30px);
+    background-color: transparent;
 }

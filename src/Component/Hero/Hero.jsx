@@ -7,7 +7,6 @@ import Arrow_01 from '../Assets/Arrow_01.png'
 const Hero = () => {
     return (
         <div className='hero_section'>
-            <Navbar />
             <div className="hero_content">
                 <div className="left_colum">
                     <h2>A home is built with love and dreams</h2>
