@@ -1,0 +1,36 @@
+import React from 'react'
+import './OurRealEstate.css';
+import property_1 from '../Assets/property_1.png'
+import property_2 from '../Assets/property_2.png'
+import arrow_icon from '../Assets/right-arrow.png'
+
+const OurRealEstate = () => {
+    return (
+        <div className='our_real_estate'>
+            <h1>Our Real Estate development in Nigerial</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium similique ratione, et, nostrum facere reprehenderit nesciunt accusantium, amet itaque dolorum sit nam eum molestias ipsum officia! Soluta alias commodi vel.</p>
+            <div className="main_content">
+                <div className="two_col">
+                    <img src={property_1} alt="IMG" />
+                    <div className="overlay">
+                        <h2>Land and property sales</h2>
+                    </div>
+                </div>
+                <div className="two_col">
+                    <img src={property_2} alt="IMG" />
+                    <div className="overlay">
+                        <h2>Land and property sales</h2>
+                    </div>
+                </div>
+            </div>
+            <div className="all_btn_con">
+                <button className='all_btn'>
+                    All Property
+                    <img src={arrow_icon} alt="" />
+                </button>
+            </div>
+        </div>
+    )
+}
+
+export default OurRealEstate
