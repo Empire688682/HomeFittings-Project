@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
-import { CiMenuFries } from "react-icons/ci";
-import { AiOutlineClose } from "react-icons/ai";
+import menu_Icon from '../Assets/menu icon.png'
+import close_Icon from '../Assets/close icon.png'
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -14,14 +14,14 @@ const Navbar = () => {
       </div>
       <div className={menu? "menu":"not_menu"}>
         <ul>
-            <AiOutlineClose className='menu_close' onClick={()=> setMenu(false)} /> 
+            <img src={close_Icon} style={{backgroundColor:"transparent"}} alt="" className='menu_close' onClick={()=> setMenu(false)} />
             <NavLink style={{textDecoration:"none"}} className='link' to="/">Home</NavLink>
             <NavLink style={{textDecoration:"none"}} className='link' to="/about">About</NavLink>
             <NavLink style={{textDecoration:"none"}} className='link' to="/project">Project</NavLink>
             <NavLink style={{textDecoration:"none"}} className='link' to="/contact">Contact</NavLink>
         </ul>
       </div>
-      <  CiMenuFries onClick={()=> setMenu(true)} className='menu_open'/>
+      <img src={menu_Icon} alt="menu" onClick={()=> setMenu(true)} className='menu_open' />
     </div>
   )
 }

@@ -33,13 +33,13 @@
 }
 .menu_open {
     background-color: transparent;
-    font-size: 35px;
+    width: 35px;
     display: none;
 }
 .menu_close {
-    background-color: transparent;
-    font-size: 35px;
+    background-color: yellow;
     display: none;
+    width: 35px;
 }
 
 
