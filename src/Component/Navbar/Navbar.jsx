@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
-import menu_Icon from '../Assets/menu icon.png'
-import close_Icon from '../Assets/close icon.png'
+import menu_Icon from '../Assets/menu_icon.png'
+import close_Icon from '../Assets/close_icon.png'
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
