@@ -1,8 +1,8 @@
 import React from 'react'
-import './Hero.css';
-import Navbar from '../Navbar/Navbar';
+import './Hero.css'
 import house_Img from '../Assets/House_1.png'
 import Arrow_01 from '../Assets/Arrow_01.png'
+import { NavLink } from 'react-router-dom';
 
 const Hero = () => {
     return (
@@ -15,8 +15,8 @@ const Hero = () => {
                     <img src={Arrow_01} alt="Arrow" />
                     </div>
                     <div className="btn_links">
-                        <button className='btn_1'>Our Project</button>
-                        <button className='btn_2'>Contact Us</button>
+                    <NavLink style={{textDecoration:"none"}} className='btn_1' to="/project">Our Project</NavLink>
+                    <NavLink style={{textDecoration:"none"}} className='btn_2' to="/contact">Contact</NavLink>
                     </div>
                 </div>
                 <div className="right_colum">
