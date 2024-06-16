@@ -32,6 +32,9 @@
 .content img{
     width: 30px;
 }
+.big_col .content p a{
+    font-size: 14px;
+}
 .small_col{
     flex-basis: 20%;
     display: flex;

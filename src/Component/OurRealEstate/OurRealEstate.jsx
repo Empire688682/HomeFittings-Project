@@ -7,7 +7,7 @@ import arrow_icon from '../Assets/right-arrow.png'
 const OurRealEstate = () => {
     return (
         <div className='our_real_estate'>
-            <h1>Our Real Estate development in Nigerial</h1>
+            <h1>Our Real Estate development in Nigeria</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium similique ratione, et, nostrum facere reprehenderit nesciunt accusantium, amet itaque dolorum sit nam eum molestias ipsum officia! Soluta alias commodi vel.</p>
             <div className="main_content">
                 <div className="two_col">
