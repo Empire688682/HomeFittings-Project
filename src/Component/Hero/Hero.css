@@ -28,6 +28,7 @@
 }
 .text_arrow img{
     background-color: transparent;
+    max-width: 150px;
 }
 .left_colum p{
     font-size: 25px;
