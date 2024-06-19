@@ -37,34 +37,33 @@
    color: #ffffff;
    font-weight: 900;
 }
-.our_real_estate .all_btn_con{
+
+.our_real_estate .btn_con {
     width: 100%;
     display: flex;
     align-items: end;
     justify-content: flex-end;
- }
- .our_real_estate .all_btn{
-    margin-top: 10px; 
+}
+.our_real_estate .btn {
     background-color: #1E3240;
     color: #ffff;
     border: none;
-    padding: 10px 30px;
+    padding: 5px 25px;
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 10px;
- }
- .all_btn img{
-     width: 30px;
-     background-color: transparent;
- }
-
+}
+.btn img {
+    width: 30px;
+    background-color: transparent;
+}
  @media (max-width:690px) {
     .our_real_estate .main_content .two_col {
         flex-basis: 100%;
         min-width: 300px;
     }
-    .our_real_estate .all_btn_con{
+    .our_real_estate .btn_con{
         width: 100%;
         display: flex;
         align-items: center;

@@ -6,7 +6,6 @@ import close_Icon from '../Assets/close_icon.png'
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
-  console.log(menu)
   return (
     <div className='navbar_section'>
       <div className="logo">
@@ -18,7 +17,7 @@ const Navbar = () => {
             <NavLink style={{textDecoration:"none"}} className='link' to="/">Home</NavLink>
             <NavLink style={{textDecoration:"none"}} className='link' to="/about">About</NavLink>
             <NavLink style={{textDecoration:"none"}} className='link' to="/project">Project</NavLink>
-            <NavLink style={{textDecoration:"none"}} className='link' to="/contact">Contact</NavLink>
+            <a style={{textDecoration:"none"}} href="https://wa.link/z25hyo" className='link' target="_blank">Contact us</a>
         </ul>
       </div>
       <img src={menu_Icon} alt="menu" onClick={()=> setMenu(true)} className='menu_open' />

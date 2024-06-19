@@ -5,8 +5,11 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './Component/Home/Home'
 import About from './Component/About/About'
 import Project from './Component/Project/Project'
-import Contact from './Component/Contact/Contact'
 import Footer from './Component/Footer/Footer'
+import SanitaryFittingsPage from './Component/SanitaryFittingsPage/SanitaryFittingsPage'
+import RealEstatePage from './Component/RealEstatePage/RealEstatePage'
+import DoorsPage from './Component/DoorsPage/DoorsPage'
+import TilesPage from './Component/TilesPage/TilesPage'
 
 const App = () => {
   return (
@@ -16,7 +19,10 @@ const App = () => {
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/project' element={<Project/>}/>
-          <Route path='/contact' element={<Contact/>}/>
+          <Route path='/Sgallery' element={<SanitaryFittingsPage/>}/>
+          <Route path='/Rgallery' element={<RealEstatePage/>}/>
+          <Route path='/Dgallery' element={<DoorsPage/>}/>
+          <Route path='/Tgallery' element={<TilesPage/>}/>
         </Routes>
         <Footer/>
     </div>

@@ -3,6 +3,7 @@ import './OurRealEstate.css';
 import property_1 from '../Assets/property_1.png'
 import property_2 from '../Assets/property_2.png'
 import arrow_icon from '../Assets/right-arrow.png'
+import { NavLink } from 'react-router-dom';
 
 const OurRealEstate = () => {
     return (
@@ -23,10 +24,12 @@ const OurRealEstate = () => {
                     </div>
                 </div>
             </div>
-            <div className="all_btn_con">
-                <button className='all_btn'>
-                    All Property
-                    <img src={arrow_icon} alt="" />
+            <div className="btn_con">
+                <button className='btn'>
+                    <NavLink style={{ textDecoration: "none" }} className='btn' to="/Rgallery">
+                        All Properties
+                        <img src={arrow_icon} alt="" />
+                    </NavLink>
                 </button>
             </div>
         </div>

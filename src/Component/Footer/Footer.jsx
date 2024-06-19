@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='footer'>
             <div className="footer_content">
                 <div className="big_col">
-                    <h2>CONTACT</h2>
+                    <h2>CONTACTS</h2>
                     <div className="content">
                         <img src={location_icon} alt="" />
                         <p>Plot 26 Channels Tv Avenue, Opic Ogun State</p>
