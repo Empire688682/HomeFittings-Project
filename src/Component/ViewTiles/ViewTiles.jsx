@@ -5,6 +5,9 @@ import arrow_icon from '../Assets/right-arrow.png'
 import { NavLink } from 'react-router-dom';
 
 const ViewTiles = () => {
+    const scrollToTop = () => {
+        window.scrollTo(0, 0);
+      };
     return (
         <div className='view_tiles'>
             <h1>View available Tiles</h1>
@@ -21,7 +24,7 @@ const ViewTiles = () => {
             </div>
             <div className="btn_con">
                 <button className='btn'>
-                    <NavLink style={{ textDecoration: "none" }} className='btn' to="/Tgallery">
+                    <NavLink onClick={scrollToTop} style={{ textDecoration: "none" }} className='btn' to="/Tgallery">
                         All Tiles
                         <img src={arrow_icon} alt="" />
                     </NavLink>

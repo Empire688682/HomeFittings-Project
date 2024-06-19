@@ -5,6 +5,9 @@ import arrow_icon from '../Assets/right-arrow.png'
 import { NavLink } from 'react-router-dom';
 
 const GoldenDoors = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div className='golden_doors'>
       <h1>Distributor of Golden Diamond doors</h1>
@@ -21,7 +24,7 @@ const GoldenDoors = () => {
       </div>
       <div className="btn_con">
         <button className='btn'>
-          <NavLink style={{ textDecoration: "none" }} className='btn' to="/Dgallery">
+          <NavLink onClick={scrollToTop} style={{ textDecoration: "none" }} className='btn' to="/Dgallery">
             All Doors
             <img src={arrow_icon} alt="" />
           </NavLink>
