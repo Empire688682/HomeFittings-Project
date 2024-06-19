@@ -1,0 +1,70 @@
+.tiles{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.tiles h2{
+    color: lightgray;
+    font-size: 30px;
+    font-weight: 500;
+}
+.tiles h1{
+   font-weight: 800;
+   margin-bottom: 20px;
+   font-size: 30px;
+}
+.tiles_con{
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.tiles_con .four_col{
+    flex-basis: 22%;
+    min-width: 260px;
+}
+.four_col img{
+    width: 100%;
+}
+.tiles .btn_con {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.tiles .btn {
+    background-color: #1E3240;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.tiles .btn a {
+    background-color: #1E3240;
+    color: #ffff;
+    text-decoration: none;
+}
+
+
+@media (max-width:900px) {
+    .tiles h1, .tiles h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:790px) {
+    .tiles_con .four_col{
+        flex-basis: 49%;
+        min-width: 250px;
+    }
+}
+
+@media (max-width:590px) {
+    .tiles_con .four_col{
+        flex-basis: 100%;
+        min-width: 200px;
+    }
+}
