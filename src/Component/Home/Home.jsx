@@ -11,13 +11,13 @@ import ViewTiles from '../ViewTiles/ViewTiles';
 const Home = () => {
   return (
     <div>
-      <Hero/>
-      <About/>
-      <Project/>
-      <OurRealEstate/>
-      <Distributor/>
-      <ViewTiles/>
-      <Review/>
+      <Hero  />
+      <About />
+      <Project />
+      <OurRealEstate />
+      <Distributor />
+      <ViewTiles />
+      <Review />
     </div>
   )
 }

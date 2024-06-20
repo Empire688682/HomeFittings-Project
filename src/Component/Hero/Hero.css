@@ -15,6 +15,11 @@
     flex-basis: 49%;
     min-width: 300px;
     background-color: transparent;
+    transform: translateY(40px);
+    transition: 1s;
+}
+.left_colum.observer{
+    transform: translateY(0px);
 }
 .left_colum h2{
     font-size: 75px;
@@ -62,6 +67,11 @@
 .hero_content .right_colum{
     flex-basis: 49%;
     background-color: transparent;
+    transform: translateX(50%);
+    transition: 1s
+}
+.right_colum.observer{
+    transform: translateX(0%);
 }
 .right_colum img{
     width: 100%;

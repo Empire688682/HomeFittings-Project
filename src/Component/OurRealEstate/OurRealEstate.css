@@ -58,6 +58,20 @@
     width: 30px;
     background-color: transparent;
 }
+.our_real_estate .imgL{
+    transform: translateX(-10%);
+    transition:1s ;
+}
+.imgL.observerL{
+    transform: translateX(0%); 
+}
+.our_real_estate .imgR{
+    transform: translateX(10%);
+    transition:1s ;
+}
+.imgR.observerR{
+    transform: translateX(0%); 
+}
  @media (max-width:690px) {
     .our_real_estate .main_content .two_col {
         flex-basis: 100%;

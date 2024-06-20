@@ -7,10 +7,17 @@
 
 .project h1 {
     padding-bottom: 30px;
+    transform: translateY(40px);
+    transition:1s ;
+}
+.project .observer{
+    transform: translateY(0px);
 }
 
 .project p {
     padding-bottom: 30px;
+    transform: translateY(40px);
+    transition:1s ;
 }
 
 .project_m_content {
@@ -37,6 +44,20 @@
 .two_colum img {
     width: 100%;
     height: 100%;
+}
+.project .imgL{
+    transform: translateX(-50%);
+    transition:1s ;
+}
+.imgL.observerL{
+    transform: translateX(0%); 
+}
+.project .imgR{
+    transform: translateX(50%);
+    transition:1s ;
+}
+.imgR.observerR{
+    transform: translateX(0%); 
 }
 
 .project .btn_con {
