@@ -12,32 +12,46 @@
     flex-basis: 45%;
     min-width: 300px;
 }
-
 .left_colum img {
     width: 100%;
     max-height: 500px;
 }
-
+.left_colum .img {
+    width: 100%;
+    max-height: 500px;
+    transform: translateY(40px);
+    transition:1s ;
+}
+.left_colum .observer{
+    transform: translateY(0px);
+}
 .about .right_colum {
     flex-basis: 49%;
     min-width: 300px;
 }
-
 .right_colum h1 {
     padding-top: 40px;
     padding-bottom: 60px;
     font-size: 50px;
+    transform: translateY(40px);
+    transition:1s ;
 }
-
+.right_colum .observer{
+    transform: translateY(0px);
+}
 .right_colum p {
     padding-top: 20px;
     padding-bottom: 50px;
+    transform: translateY(40px);
+    transition: 1s;
 }
 
 .experience_all {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transform: translateY(40px);
+    transition: 1s;
 }
 
 .three_col h4 {
