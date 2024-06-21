@@ -4,6 +4,7 @@ import client_1 from '../Assets/client_1.png'
 import client_2 from '../Assets/client_2.png'
 
 const Review = () => {
+    let sign = '"'
     return (
         <div className='review'>
             <h1>Happy Client</h1>
@@ -14,7 +15,7 @@ const Review = () => {
                     <div className="text_all">
                         <h4>Simba Rosie</h4>
                         <p>CEO</p>
-                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fugit sit obcaecati a, architecto odit et. Neque, nisi consectetur exercitationem similique a illo dolore provident explicabo sed, inventore quia aliquid!</h5>
+                        <h5> {sign} Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fugit sit obcaecati a, architecto odit et. Neque, nisi consectetur exercitationem similique a illo dolore provident explicabo sed, inventore quia aliquid! {sign}</h5>
                     </div>
                 </div>
                 <div className="two_col">
@@ -22,7 +23,7 @@ const Review = () => {
                     <div className="text_all">
                         <h4>Brooklyn Simmons</h4>
                         <p>Engineer</p>
-                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fugit sit obcaecati a, architecto odit et. Neque, nisi consectetur exercitationem similique a illo dolore provident explicabo sed, inventore quia aliquid!</h5>
+                        <h5>{sign} Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fugit sit obcaecati a, architecto odit et. Neque, nisi consectetur exercitationem similique a illo dolore provident explicabo sed, inventore quia aliquid! {sign}</h5>
                     </div>
                 </div>
             </div>

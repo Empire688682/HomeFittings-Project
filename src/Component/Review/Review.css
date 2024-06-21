@@ -20,7 +20,7 @@
     justify-content: space-between;
     gap: 20px;
 }
-.main_content .two_col{
+.review .main_content .two_col{
     flex-basis: 48%;
     min-width: 300px;
     min-height: 300px;
@@ -29,26 +29,37 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 5px 0 0 gray;
+    border-radius: 10px;
 }
 .review .two_col img{
-    width: 200px;
-    height: 200px;
-    padding-bottom: 10px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
+    box-shadow: 0 0 0 5px gray;
+    margin-bottom: 20px;
 }
  .two_col h4{
     padding-bottom: 15px;
     font-weight: bolder;
     text-align: center;
 }
+.two_col p{
+    font-weight: bold;
+    line-height: 0.5;
+}
  .two_col h5{
     text-align: center;
     color: gray;
+    box-shadow: 0 0 2px 0 ;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 
 @media (max-width:690px) {
-    .review .two_col {
+    .review .main_content .two_col {
         flex-basis: 100%;
         min-width: 300px;
     }
