@@ -5,13 +5,20 @@ import phone_icon from '../Assets/phone_icon.png';
 import email_icon from '../Assets/email_icon.png';
 import whatsapp_icon from '../Assets/whatsapp_icon.png'
 import { NavLink } from 'react-router-dom';
+import back_Top from '../Assets/backToTop.png';
 
 const Footer = () => {
     const scrollToTop = () => {
         window.scrollTo(0, 0);
-      };
+    };
     return (
         <div className='footer'>
+            <div className="back_top_con">
+                <div className='img_con' >
+                    <img src={back_Top} alt="" onClick={scrollToTop} />
+                    <small>To top</small>
+                </div>
+            </div>
             <div className="footer_content">
                 <div className="big_col">
                     <h2>CONTACTS</h2>
@@ -30,7 +37,7 @@ const Footer = () => {
                     </div>
                     <div className="content">
                         <img src={whatsapp_icon} alt="Icon" />
-                        <p><a onClick={scrollToTop} style={{textDecoration:"none"}} href="https://wa.link/ph3nic" className='link' target="_blank">+234 803 847 9946</a></p>
+                        <p><a onClick={scrollToTop} style={{ textDecoration: "none" }} href="https://wa.link/ph3nic" className='link' target="_blank">+234 803 847 9946</a></p>
                     </div>
                 </div>
                 <div className="small_col">
@@ -39,7 +46,7 @@ const Footer = () => {
                         <NavLink onClick={scrollToTop} style={{ textDecoration: "none" }} className='link' to="/">Home</NavLink>
                         <NavLink onClick={scrollToTop} style={{ textDecoration: "none" }} className='link' to="/about">About</NavLink>
                         <NavLink onClick={scrollToTop} style={{ textDecoration: "none" }} className='link' to="/project">Project</NavLink>
-                        <a onClick={scrollToTop} style={{textDecoration:"none"}} href="https://wa.link/ph3nic" className='link' target="_blank">Contact</a>
+                        <a onClick={scrollToTop} style={{ textDecoration: "none" }} href="https://wa.link/ph3nic" className='link' target="_blank">Contact</a>
                     </div>
                 </div>
                 <div className="small_col">

@@ -3,6 +3,28 @@
     width: 100%;
     padding: 80px 5%;
 }
+.back_top_con{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.back_top_con .img_con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.img_con small{
+    color: white;
+}
+.back_top_con img{
+    width: 50px;
+    height: 50px;
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
 .footer a, .footer h2, .footer .link, .footer p{
     color: #ffffff;
     text-decoration: none;

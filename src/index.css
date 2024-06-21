@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: sans-serif, Arial, Helvetica;
   color:#1E3240;
+  scroll-behavior: smooth;
 }
 p,h5{
   line-height: 1.8;
