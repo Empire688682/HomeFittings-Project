@@ -17,7 +17,7 @@ const Navbar = () => {
             <NavLink style={{textDecoration:"none"}} className='link' to="/">Home</NavLink>
             <NavLink style={{textDecoration:"none"}} className='link' to="/about">About</NavLink>
             <NavLink style={{textDecoration:"none"}} className='link' to="/project">Project</NavLink>
-            <a style={{textDecoration:"none"}} href="https://wa.link/z25hyo" className='link' target="_blank">Contact us</a>
+            <a style={{textDecoration:"none"}} href="https://wa.link/ph3nic" className='link' target="_blank">Contact us</a>
         </ul>
       </div>
       <img src={menu_Icon} alt="menu" onClick={()=> setMenu(true)} className='menu_open' />

@@ -33,7 +33,7 @@
 .golden_doors .two_colum{
     flex-basis: 49.3%;
     min-width: 300px;
-    height: 501px;
+    max-height: 550px;
     transform: translateY(40px);
     transition:1s ;
 }
@@ -43,6 +43,7 @@
 .golden_doors .two_colum img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 .golden_doors .btn_con {
     margin-top: 50px;

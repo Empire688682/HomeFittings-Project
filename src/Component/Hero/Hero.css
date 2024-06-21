@@ -67,8 +67,8 @@
 .hero_content .right_colum{
     flex-basis: 49%;
     background-color: transparent;
-    transform: translateX(50%);
-    transition: 1s
+    transform: translateX(100%);
+    transition: 1s;
 }
 .right_colum.observer{
     transform: translateX(0%);

@@ -17,15 +17,15 @@ const About = () => {
         <p ref={cl3Ref} className={cl3View? "img observer":"img"}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque atque, qui et mollitia soluta ratione officia delectus tempora, incidunt facilis quibusdam reiciendis illum accusantium, molestiae eius. Cupiditate, libero amet!</p>
         <div ref={cl4Ref} className={cl4View? "experience_all observer":"experience_all"}>
           <div className="three_col">
-            <h4 >Happy client</h4>
+            <h4 >PREVIOUS PROJECT</h4>
             <h2>34+</h2>
           </div>
           <div className="three_col">
-            <h4 >Happy client</h4>
+            <h4 >YEARS EXPERIENCE</h4>
             <h2>20y</h2>
           </div>
           <div className="three_col">
-            <h4>Happy client</h4>
+            <h4>ONGOING PROJECT</h4>
             <h2>12</h2>
           </div>
         </div>

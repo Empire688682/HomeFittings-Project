@@ -33,7 +33,7 @@
 .view_tiles .two_colum{
     flex-basis: 49.3%;
     min-width: 300px;
-    height: 501px;
+    max-height: 550px;
     transform: translateY(40px);
     transition:1s ;
 }
@@ -43,6 +43,7 @@
 .view_tiles .two_colum img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 .view_tiles .btn_con {
     margin-top: 50px;

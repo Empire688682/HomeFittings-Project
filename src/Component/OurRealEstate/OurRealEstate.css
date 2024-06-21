@@ -20,11 +20,15 @@
 .main_content .two_col{
     flex-basis: 48%;
     min-width: 300px;
+    max-height: 550px;
     position: relative;
     cursor: pointer;
+    overflow: hidden;
 }
 .main_content .two_col img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .two_col .overlay{
     position: absolute;
