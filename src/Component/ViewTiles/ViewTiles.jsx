@@ -1,6 +1,7 @@
 import React from 'react'
 import './ViewTiles.css';
-import img_1 from '../Assets/IMG_5.png';
+import img_1 from '../Assets/tile_1.png';
+import img_2 from '../Assets/tile_2.png';
 import arrow_icon from '../Assets/right-arrow.png'
 import { NavLink } from 'react-router-dom';
 import { useInView } from "react-intersection-observer";
@@ -23,7 +24,7 @@ const ViewTiles = () => {
                         <img src={img_1} alt="IMG" />
                     </div>
                     <div ref={cl4Ref} className={cl4View? "two_colum observer":"two_colum"}>
-                        <img src={img_1} alt="IMG" />
+                        <img src={img_2} alt="IMG" />
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Project.css';
-import img_1 from '../Assets/IMG_4.png';
-import img_2 from '../Assets/About_Img.png'
+import img_1 from '../Assets/sanitry_1.png';
+import img_2 from '../Assets/sanitry_2.png'
 import arrow_icon from '../Assets/right-arrow.png'
 import { NavLink } from 'react-router-dom';
 import { useInView } from "react-intersection-observer";

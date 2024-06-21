@@ -1,6 +1,7 @@
 import React from 'react'
 import './GoldenDoors.css';
-import img_1 from '../Assets/IMG_2.png';
+import img_1 from '../Assets/door_1.png'
+import img_2 from '../Assets/door_2.png'
 import arrow_icon from '../Assets/right-arrow.png'
 import { NavLink } from 'react-router-dom';
 import { useInView } from "react-intersection-observer";
@@ -23,7 +24,7 @@ const GoldenDoors = () => {
             <img src={img_1} alt="IMG" />
           </div>
           <div ref={cl4Ref} className={cl4View? "two_colum observer":"two_colum"}>
-            <img src={img_1} alt="IMG" />
+            <img src={img_2} alt="IMG" />
           </div>
         </div>
       </div>
