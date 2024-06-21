@@ -13,8 +13,8 @@ const About = () => {
         <img ref={cl1Ref} className={cl1View? "img observer":"img"} src={about_Img} alt="IMG" />
       </div>
       <div className="right_colum">
-        <h1 ref={cl2Ref} className={cl2View? "img observer":"img"} >We offer the best quality fittings</h1>
-        <p ref={cl3Ref} className={cl3View? "img observer":"img"}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque atque, qui et mollitia soluta ratione officia delectus tempora, incidunt facilis quibusdam reiciendis illum accusantium, molestiae eius. Cupiditate, libero amet!</p>
+        <h1 ref={cl2Ref} className={cl2View? "img observer":"img"} >Your One-Stop Shop for Building & Real Estate</h1>
+        <p ref={cl3Ref} className={cl3View? "img observer":"img"}>We provide a comprehensive range of high-quality building materials, from essential sanitaryware and tiles to stylish Golden Diamond doors. Additionally, our expert realtors can assist you in buying, selling, or leasing your dream property, including buildings, apartments, and land</p>
         <div ref={cl4Ref} className={cl4View? "experience_all observer":"experience_all"}>
           <div className="three_col">
             <h4 >PREVIOUS PROJECT</h4>

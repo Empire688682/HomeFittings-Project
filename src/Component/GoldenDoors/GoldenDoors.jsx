@@ -17,7 +17,7 @@ const GoldenDoors = () => {
   return (
     <div className='golden_doors'>
       <h1 ref={cl1Ref} className={cl1View? "observer":""}>Distributor of Golden Diamond doors</h1>
-      <p ref={cl2Ref} className={cl2View? "observer":""}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, enim? Quasi enim aspernatur molestiae. Quod corporis distinctio porro quam magni rerum necessitatibus! Temporibus reprehenderit recusandae quidem, totam aspernatur quasi exercitationem!</p>
+      <p ref={cl2Ref} className={cl2View? "observer":""}>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
       <div className="golden_doors_m_content">
         <div className='two_colum_con'>
           <div ref={cl3Ref} className={cl3View? "two_colum observer":"two_colum"}>
