@@ -17,6 +17,15 @@ import image_14 from '../Assets/sanitry_14.png'
 import image_15 from '../Assets/sanitry_15.png'
 import image_16 from '../Assets/sanitry_16.png'
 import image_17 from '../Assets/sanitry_17.png'
+import image_18 from '../Assets/sanitry_18.jpeg'
+import image_19 from '../Assets/sanitry_19.jpeg'
+import image_20 from '../Assets/sanitry_20.jpeg'
+import image_21 from '../Assets/sanitry_21.jpeg'
+import image_22 from '../Assets/sanitry_22.jpeg'
+import image_23 from '../Assets/sanitry_23.jpeg'
+import image_24 from '../Assets/sanitry_24.jpeg'
+import image_25 from '../Assets/sanitry_25.jpeg'
+import image_26 from '../Assets/sanitry_26.jpeg'
 
 const SanitaryFittingsPage = () => {
     return (
@@ -52,12 +61,6 @@ const SanitaryFittingsPage = () => {
                     <img src={image_11} alt="IMG" />
                 </div>
                 <div className="four_col">
-                    <img src={image_12} alt="IMG" />
-                </div>
-                <div className="four_col">
-                    <img src={image_13} alt="IMG" />
-                </div>
-                <div className="four_col">
                     <img src={image_14} alt="IMG" />
                 </div>
                 <div className="four_col">
@@ -74,6 +77,39 @@ const SanitaryFittingsPage = () => {
                 </div>
                 <div className="four_col">
                     <img src={image_2} alt="IMG" />
+                </div>
+                <div className="four_col">
+                    <img src={image_18} alt="IMG" />
+                </div>
+                <div className="four_col">
+                    <img src={image_19} alt="IMG" />
+                </div>
+                <div className="four_col">
+                    <img src={image_20} alt="IMG" />
+                </div>
+                <div className="four_col">
+                    <img src={image_21} alt="IMG" />
+                </div>
+                <div className="four_col">
+                    <img src={image_22} alt="IMG" />
+                </div>
+                <div className="four_col">
+                    <img src={image_23} alt="IMG" />
+                </div>
+                <div className="four_col">
+                    <img src={image_24} alt="IMG" />
+                </div>
+                <div className="four_col">
+                    <img src={image_25} alt="IMG" />
+                </div>
+                <div className="four_col">
+                    <img src={image_26} alt="IMG" />
+                </div>
+                <div className="four_col">
+                    <img src={image_12} alt="IMG" />
+                </div>
+                <div className="four_col">
+                    <img src={image_13} alt="IMG" />
                 </div>
             </div>
             <div className="btn_con">
