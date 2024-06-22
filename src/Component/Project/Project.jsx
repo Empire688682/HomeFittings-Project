@@ -5,6 +5,9 @@ import img_2 from '../Assets/sanitry_2.png'
 import arrow_icon from '../Assets/right-arrow.png'
 import { NavLink } from 'react-router-dom';
 import { useInView } from "react-intersection-observer";
+import OurRealEstate from '../OurRealEstate/OurRealEstate';
+import Distributor from '../GoldenDoors/GoldenDoors';
+import ViewTiles from '../ViewTiles/ViewTiles';
 
 const Project = () => {
   const scrollToTop = () => {
@@ -36,6 +39,9 @@ const Project = () => {
         </NavLink>
         </button>
       </div>
+      <OurRealEstate/>
+      <Distributor />
+      <ViewTiles />
     </div>
   )
 }
