@@ -26,7 +26,7 @@ const About = () => {
           </div>
           <div className="three_col">
             <h4>ONGOING PROJECT</h4>
-            <h2>12</h2>
+            <h2>14</h2>
           </div>
         </div>
       </div>
