@@ -1,7 +1,7 @@
 import React from 'react'
 import './Project.css';
-import img_1 from '../Assets/sanitry_1.png';
-import img_2 from '../Assets/sanitry_2.png'
+import img_1 from '../Assets/sanitry_1_homepage.png';
+import img_2 from '../Assets/sanitry_2_homepage.png'
 import arrow_icon from '../Assets/right-arrow.png'
 import { NavLink } from 'react-router-dom';
 import { useInView } from "react-intersection-observer";
@@ -20,7 +20,7 @@ const Project = () => {
   return (
     <div className='project'>
       <h1 ref={cl1Ref} className={cl1View? "observer":""} >View sanitary fittings</h1>
-      <p ref={cl2Ref} className={cl2View? "observer":""}>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
+      <p ref={cl2Ref} className={cl2View? "observer":""}>We are distributors and wholesalers</p>
       <div className="project_m_content">
         <div className="two_colum_con">
           <div className="two_colum">

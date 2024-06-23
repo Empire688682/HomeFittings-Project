@@ -17,7 +17,7 @@ const OurRealEstate = () => {
     return (
         <div className='our_real_estate'>
             <h1 ref={cl1Ref} className={cl1View? "observer":""}>Our Real Estate development in Nigeria</h1>
-            <p ref={cl2Ref} className={cl2View? "observer":""}>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
+            <p ref={cl2Ref} className={cl2View? "observer":""}>Real Estate/Agent and construction</p>
             <div className="main_content">
                 <div ref={cl3Ref} className={cl3View? "imgL two_col observerL":"imgL"}>
                     <img src={property_1} className={cl3View? "imgL observerL":"imgL"} alt="IMG" />

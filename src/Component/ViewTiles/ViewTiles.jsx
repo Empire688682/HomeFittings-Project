@@ -17,7 +17,7 @@ const ViewTiles = () => {
     return (
         <div className='view_tiles'>
             <h1 ref={cl1Ref} className={cl1View? "observer":""}>View available Tiles</h1>
-            <p ref={cl2Ref} className={cl2View? "observer":""}>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
+            <p ref={cl2Ref} className={cl2View? "observer":""}>We are distributors and wholesalers</p>
             <div className="view_tiles_m_content">
                 <div className="two_colum_con">
                     <div ref={cl3Ref} className={cl3View? "two_colum observer":"two_colum"}>

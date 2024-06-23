@@ -1,11 +1,8 @@
 .view_tiles{
     width: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
     margin: 30px 0;
 }
 .view_tiles h1{
-    padding-bottom: 30px;
     transform: translateY(40px);
     transition:1s ;
 }
@@ -67,24 +64,13 @@
     background-color: transparent;
 }
 
-@media (max-width:900px) {
-    .view_tiles h1{
-        padding-bottom: 15px;
-    }
-}
-
 @media (max-width:790px) {
     .view_tiles .two_colum{
         flex-basis: 49%;
         min-width: 250px;
     }
 }
-
 @media (max-width:690px) {
-    .view_tiles h1{
-        font-size: 30px;
-        margin-top: 60px;
-    }
     .view_tiles .two_colum{
         flex-basis: 100%;
         min-width: 250px;

@@ -12,9 +12,9 @@ const Hero = () => {
         <div className='hero_section'>
             <div className="hero_content">
                 <div ref={cl1Ref} className={cl1View? "left_colum observer":"left_colum"}>
-                    <h2>A home is built with love and dreams</h2>
+                    <h2>Make your dream home with us</h2>
                     <div className="text_arrow">
-                    <p>Real estate farm that makes your dreams true </p>
+                    <p>Dealers of tiles, doors, sanitary wares and real estate  </p>
                     <img src={Arrow_01} alt="Arrow" />
                     </div>
                     <div className="btn_links">
