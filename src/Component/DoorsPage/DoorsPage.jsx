@@ -31,6 +31,7 @@ const DoorsPage = () => {
         <div className='doors'>
             <h2>Doors gallery</h2>
             <h1>Gallery</h1>
+            <p>Home Fittings offers a wide variety of doors to complement every style and requirement. Our selection includes doors designed for durability, security, and aesthetic appeal. Whether you're looking for classic, modern, or custom designs, we have the perfect door to enhance your home's entryways and interiors. Explore our range to find the ideal door solutions for your home.</p>
             <div className="doors_con">
                 <div className="four_col">
                     <img src={image_25} alt="IMG" />

@@ -39,8 +39,8 @@ const Project = () => {
         </NavLink>
         </button>
       </div>
-      <OurRealEstate/>
       <Distributor />
+      <OurRealEstate/>
       <ViewTiles />
     </div>
   )

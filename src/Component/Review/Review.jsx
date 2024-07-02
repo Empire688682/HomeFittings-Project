@@ -1,10 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Review.css'
 import client_1 from '../Assets/review_1.jpg';
 import client_2 from '../Assets/review_2.jpg';
+import ScrollReveal from 'scrollreveal';
 
 const Review = () => {
     let sign = '"'
+
+    useEffect(()=>{
+            ScrollReveal().reveal('.two_col', {
+              delay: 500,
+              distance: '50px',
+              duration: 2000,
+              easing: 'ease-in-out',
+              origin: 'bottom',
+              rotate: {
+                x: 100,
+                y: 50,
+                z: 70,
+              },
+            });
+            
+       },[]);
+
     return (
         <div className='review'>
             <h1>Happy Client</h1>

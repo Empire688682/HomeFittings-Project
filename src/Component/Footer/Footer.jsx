@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Footer.css'
 import location_icon from '../Assets/location_icon.png';
 import phone_icon from '../Assets/phone_icon.png';
@@ -6,11 +6,30 @@ import email_icon from '../Assets/email_icon.png';
 import whatsapp_icon from '../Assets/whatsapp_icon.png'
 import { NavLink } from 'react-router-dom';
 import back_Top from '../Assets/backToTop.png';
+import ScrollReveal from 'scrollreveal';
 
 const Footer = () => {
+    useEffect(() => {
+          // Ensure ScrollReveal is properly initialized and elements are present in the DOM
+          const sr = ScrollReveal();
+          sr.reveal('.back_top_con', {
+            delay: 500,
+            distance: '50px',
+            duration: 1000,
+            easing: 'ease-in-out',
+            origin: 'bottom',
+            rotate: {
+              x: 100,
+              y: 50,
+              z: 70,
+            },
+          });
+      }, []);
+
     const scrollToTop = () => {
         window.scrollTo(0, 0);
     };
+
     return (
         <div className='footer'>
             <div className="back_top_con">
@@ -33,7 +52,7 @@ const Footer = () => {
                     </div>
                     <div className="content">
                         <img src={email_icon} alt="Icon" />
-                        <p><a href="mailto:asehindej@gmail.com">asehindej@gmail.com</a></p>
+                        <p><a href="mailto:homefittingsltd@gmail.com">homefittingsltd@gmail.com</a></p>
                     </div>
                     <div className="content">
                         <img src={whatsapp_icon} alt="Icon" />

@@ -3,17 +3,17 @@
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .hero_content{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
     background-color: transparent;
 }
 .hero_content .left_colum{
-    flex-basis: 49%;
-    min-width: 300px;
+    flex-basis: 55%;
+    min-width: 200px;
     background-color: transparent;
     transform: translateY(40px);
     transition: 1s;
@@ -23,7 +23,7 @@
 }
 .left_colum h2{
     font-size: 75px;
-    background-color:#AFD4E2 ;
+    width: 100%;
 }
 .left_colum .text_arrow{
     display: flex;
@@ -34,12 +34,6 @@
 .text_arrow img{
     background-color: transparent;
     max-width: 150px;
-}
-.left_colum p{
-    font-size: 25px;
-    font-weight: 600;
-    padding: 20px 0;
-    background-color:#AFD4E2 ;
 }
 .left_colum .btn_links{
     display: flex;
@@ -65,19 +59,21 @@
    background-color: transparent;
 }
 .hero_content .right_colum{
-    flex-basis: 49%;
+    flex-basis: 40%;
     background-color: transparent;
     transform: translateX(100%);
     transition: 1s;
+    min-width: 300px;
+    position: relative;
 }
 .right_colum.observer{
     transform: translateX(0%);
 }
 .right_colum img{
     width: 100%;
-    min-width: 300px;
-    transform: translateX(10%) translateY(-30px);
+    transform: translateX(10%);
     background-color: transparent;
+    object-fit: cover;
 }
 
 @media (max-width:1000px){
@@ -98,13 +94,6 @@
     }
     .left_colum h2{
         font-size: 45px;
-        background-color:#AFD4E2 ;
-    }
-    .left_colum p{
-        font-size: 25px;
-        font-weight: 600;
-        padding: 20px 0;
-        background-color:#AFD4E2 ;
     }
     .left_colum .btn_links{
         display: flex;
@@ -116,8 +105,12 @@
 }
 
 @media (max-width:700px){
+    .hero_content{
+        gap: 50px;
+    }
     .hero_content .right_colum{
         flex-basis: 100%;
+        min-width: 250px;
     }
     .right_colum img{
         width: 100%;
@@ -125,6 +118,10 @@
     .hero_content .left_colum{
         flex-basis: 100%;
         text-align: center;
+    }
+     .text_arrow{
+        align-items: center;
+        flex-direction: column;
     }
     .text_arrow img{
         display: none;
@@ -137,13 +134,15 @@
     }
     .left_colum h2{
         font-size: 35px;
-        background-color:#AFD4E2 ;
     }
-    .left_colum p{
+    .text_arrow img{
+        display: none;
+    }
+    .text_arrow p{
         font-size: 20px;
         font-weight: 600;
         padding: 20px 0;
-        background-color:#AFD4E2 ;
+        text-align: center;
     }
     .left_colum .btn_links{
         display: flex;
@@ -166,6 +165,10 @@
         flex-basis: 100%;
         text-align: center;
     }
+    .text_arrow{
+        align-items: center;
+        flex-direction: column;
+    }
     .text_arrow img{
         display: none;
     }
@@ -177,13 +180,16 @@
     }
     .left_colum h2{
         font-size: 35px;
-        background-color:#AFD4E2 ;
     }
-    .left_colum p{
+    .text_arrow{
+        align-items: center;
+        flex-direction: column;
+    }
+    .text_arrow p{
         font-size: 20px;
         font-weight: 600;
         padding: 20px 0;
-        background-color:#AFD4E2 ;
+        text-align: center;
     }
     .left_colum .btn_links{
         display: flex;

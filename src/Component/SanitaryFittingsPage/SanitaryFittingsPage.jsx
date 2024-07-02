@@ -32,6 +32,7 @@ const SanitaryFittingsPage = () => {
         <div className='sanitary_fittings'>
             <h2>Sanitary fittings</h2>
             <h1>Gallery</h1>
+            <p>Discover our comprehensive range of sanitary ware, designed to enhance every bathroom space. Our selection includes WC units, taps, shower mirrors, basins, sinks, bathtubs, and Jacuzzis. Each product is crafted to deliver exceptional quality and functionality, ensuring a perfect blend of style and convenience for your home. Explore our offerings to find the ideal fixtures for your bathroom</p>
             <div className="sanitary_fittings_con">
             <div className="four_col">
                     <img src={image_6} alt="IMG" />

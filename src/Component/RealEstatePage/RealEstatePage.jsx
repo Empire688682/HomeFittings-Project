@@ -23,6 +23,7 @@ const RealEstatePage = () => {
         <div className='real_estate'>
             <h2>Real estate gallery</h2>
             <h1>Gallery</h1>
+            <p>In addition to our home improvement products, Home Fittings offers a dedicated real estate section. We provide comprehensive services for buying and renting properties, catering to all your housing needs. Whether you're looking for your dream home or a rental property, our expert team is here to assist you in finding the perfect place. Trust Home Fittings to deliver quality and satisfaction in every real estate transaction.</p>
             <div className="real_estate_con">
                 <div className="four_col">
                     <img src={image_3} alt="IMG" />

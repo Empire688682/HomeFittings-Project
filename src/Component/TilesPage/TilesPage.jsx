@@ -24,6 +24,7 @@ const TilesPage = () => {
         <div className='tiles'>
             <h2>Tiles gallery</h2>
             <h1>Gallery</h1>
+            <p>Explore our extensive selection of tiles, featuring both ceramic and porcelain options. Available in matt and polished finishes, our tiles are designed to suit a variety of styles and preferences. Whether you're looking for durability or aesthetic appeal, our range provides the perfect solution for your flooring and wall needs.</p>
             <div className="tiles_con">
             <div className="four_col">
                     <img src={image_17} alt="IMG" />
