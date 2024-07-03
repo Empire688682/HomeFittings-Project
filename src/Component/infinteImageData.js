@@ -24,28 +24,28 @@ import image_24 from './Assets/door_data_2.png'
 
 
 const all_images = [
-    about_image,
-    image_1,
-    image_2,
-    image_3,
-    image_4,
-    image_5,
-    image_21,
-    image_22,
-    image_6,
-    image_7,
-    image_8,
-    image_9,
-    image_16,
-    image_10,
-    image_11,
-    image_12,
-    image_17,
-    image_18,
-    image_19,
-    image_20,
-    image_23,
-    image_24
-  ];
-  
-  export default all_images;
+  image_2,
+  image_1,
+  image_3,
+  image_4,
+  image_5,
+  image_21,
+  image_22,
+  image_6,
+  image_7,
+  image_8,
+  about_image,
+  image_9,
+  image_16,
+  image_10,
+  image_11,
+  image_12,
+  image_17,
+  image_18,
+  image_19,
+  image_20,
+  image_23,
+  image_24
+];
+
+export default all_images;

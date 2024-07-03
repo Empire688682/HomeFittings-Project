@@ -87,5 +87,6 @@
     .about .left_colum {
         flex-basis: 100%;
         min-width: 300px;
+        display: flex;
     }
 }
