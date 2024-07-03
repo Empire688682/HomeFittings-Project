@@ -32,7 +32,7 @@ const Review = () => {
     return (
         <div className='review'>
             <h1>Happy Clients</h1>
-            <p>What Customers Says About Us</p>
+            <p>What Customers Say About Us</p>
             <div className="main_content">
                 <div className="two_col left">
                     <img src={client_1} alt="IMG" />

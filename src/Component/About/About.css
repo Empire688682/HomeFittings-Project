@@ -14,7 +14,7 @@
     max-height: 500px; /* Ensure the container has a maximum height */
     overflow: hidden;
     border-radius: 20px;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 2.5px;
 }
 .about .left_colum img {
     width: 100%;
