@@ -1,7 +1,7 @@
 import React from 'react'
 import './GoldenDoors.css';
-import img_1 from '../Assets/door_1.png'
-import img_2 from '../Assets/door_2.png'
+import img_1 from '../Assets/door_data_1.png'
+import img_2 from '../Assets/door_data_2.png'
 import arrow_icon from '../Assets/right-arrow.png'
 import { NavLink } from 'react-router-dom';
 import { useInView } from "react-intersection-observer";

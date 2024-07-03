@@ -74,6 +74,7 @@
     transform: translateX(10%);
     background-color: transparent;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 @media (max-width:1000px){

@@ -40,8 +40,8 @@ const Project = () => {
         </button>
       </div>
       <Distributor />
-      <OurRealEstate/>
       <ViewTiles />
+      <OurRealEstate/>
     </div>
   )
 }

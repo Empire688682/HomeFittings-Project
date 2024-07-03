@@ -8,17 +8,23 @@ const Review = () => {
     let sign = '"'
 
     useEffect(()=>{
-            ScrollReveal().reveal('.two_col', {
+            ScrollReveal().reveal('.left', {
               delay: 500,
               distance: '50px',
               duration: 2000,
               easing: 'ease-in-out',
-              origin: 'bottom',
-              rotate: {
-                x: 100,
-                y: 50,
-                z: 70,
-              },
+              origin: 'left',
+            });
+            
+       },[]);
+
+    useEffect(()=>{
+            ScrollReveal().reveal('.right', {
+              delay: 500,
+              distance: '50px',
+              duration: 2000,
+              easing: 'ease-in-out',
+              origin: 'right',
             });
             
        },[]);
@@ -28,7 +34,7 @@ const Review = () => {
             <h1>Happy Client</h1>
             <p>What Customers Says About Us</p>
             <div className="main_content">
-                <div className="two_col">
+                <div className="two_col left">
                     <img src={client_1} alt="IMG" />
                     <div className="text_all">
                         <h4>Sir Cletus</h4>
@@ -36,7 +42,7 @@ const Review = () => {
                         <h5> {sign} HomeFittings offers the best in toilet fittings, tiles, and more. Their quality, variety, and service are unmatched, ensuring satisfaction with every purchase. For all your bathroom needs, HomeFittings is the top choice. {sign}</h5>
                     </div>
                 </div>
-                <div className="two_col">
+                <div className="two_col right">
                     <img src={client_2} alt="IMG" />
                     <div className="text_all">
                         <h4>Bandy Rossie</h4>

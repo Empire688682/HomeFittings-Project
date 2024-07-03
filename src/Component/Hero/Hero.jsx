@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
-import HomeFitting_cover from '../Assets/Homefittings_cover.png'
-import Arrow_01 from '../Assets/Arrow_01.png'
+import HomeFitting_cover from '../Assets/valid_hero.png';
+import Arrow_01 from '../Assets/Arrow_01.png';
 import { NavLink } from 'react-router-dom';
 import { useInView } from "react-intersection-observer";
 

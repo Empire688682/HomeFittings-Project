@@ -115,7 +115,7 @@ const SanitaryFittingsPage = () => {
             </div>
             <div className="btn_con">
                 <button className='btn'>
-                    <a href="https://wa.link/z25hyo" target="_blank">Contact us</a>
+                    <a href="https://wa.link/ph3nic" target="_blank">Contact us</a>
                 </button>
             </div>
         </div>
