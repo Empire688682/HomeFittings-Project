@@ -34,7 +34,7 @@
     transform: translateY(40px);
     transition:1s ;
     border-radius: 20px;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 5px;
 }
 .golden_doors .two_colum.observer{
     transform: translateY(0px);
