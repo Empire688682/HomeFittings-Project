@@ -2,6 +2,7 @@
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
+    position: relative;
 }
 .tiles h2{
     color: lightgray;
@@ -46,11 +47,20 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    z-index: 99;
 }
 .tiles .btn a {
     background-color: #1E3240;
     color: #ffff;
     text-decoration: none;
+    position: fixed;
+    top: 70%;
+    right: 5%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 

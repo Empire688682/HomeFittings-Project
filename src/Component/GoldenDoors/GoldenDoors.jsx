@@ -16,7 +16,7 @@ const GoldenDoors = () => {
   const {ref:cl4Ref, inView:cl4View} = useInView({triggerOnce:true});
   return (
     <div className='golden_doors'>
-      <h1 ref={cl1Ref} className={cl1View? "observer":""}>Distributor of Golden Diamond doors</h1>
+      <h1 ref={cl1Ref} className={cl1View? "observer":""}>Distributors of Golden Diamond doors</h1>
       <p ref={cl2Ref} className={cl2View? "observer":""}>We are distributors and wholesalers</p>
       <div className="golden_doors_m_content">
         <div className='two_colum_con'>

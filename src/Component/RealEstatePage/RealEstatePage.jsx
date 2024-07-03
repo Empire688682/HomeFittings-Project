@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './RealEstatePage.css';
 import image_1 from '../Assets/property_1.png';
 import image_2 from '../Assets/property_2.png';
@@ -17,8 +17,27 @@ import image_14 from '../Assets/property_14.png';
 import image_15 from '../Assets/property_15.png';
 import image_16 from '../Assets/property_16.png';
 import image_17 from '../Assets/property_17.png';
+import whatsapp_Icon from '../Assets/whatsapp_icon_colored.png';
 
 const RealEstatePage = () => {
+    const [screenDown, setScreenDown] = useState(false);
+    const showContact = () => {
+        if (window.scrollY > 500) {
+            setScreenDown(true);
+        } else {
+            setScreenDown(false);
+        }
+    };
+
+    useEffect(() => {
+        // Add event listener for scroll events
+        window.addEventListener('scroll', showContact);
+
+        // Clean up the event listener on component unmount
+        return () => {
+            window.removeEventListener('scroll', showContact);
+        };
+    }, []); 
     return (
         <div className='real_estate'>
             <h2>Real estate gallery</h2>
@@ -77,11 +96,16 @@ const RealEstatePage = () => {
                     <img src={image_2} alt="IMG" />
                 </div>
             </div>
-            <div className="btn_con">
+            {
+                screenDown? <div className="btn_con">
                 <button className='btn'>
-                    <a href="https://wa.link/ph3nic" target="_blank">Contact us</a>
+                    <a href="https://wa.link/ph3nic" target="_blank">
+                        <img src={whatsapp_Icon} alt="" />
+                        Contact us
+                    </a>
                 </button>
-            </div>
+            </div>:null
+            }
         </div>
     )
 }

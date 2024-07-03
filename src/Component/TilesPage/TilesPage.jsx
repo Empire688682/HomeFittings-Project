@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './TilesPage.css';
 import image_1 from '../Assets/tile_1.png';
 import image_2 from '../Assets/tile_2.png';
@@ -17,9 +17,28 @@ import image_15 from '../Assets/tile_15.png';
 import image_17 from '../Assets/tile_17.png';
 import image_11 from '../Assets/tile_11.png';
 import image_16 from '../Assets/tile_16.png';
+import whatsapp_Icon from '../Assets/whatsapp_icon_colored.png';
 
 
 const TilesPage = () => {
+    const [screenDown, setScreenDown] = useState(false);
+    const showContact = () => {
+        if (window.scrollY > 500) {
+            setScreenDown(true);
+        } else {
+            setScreenDown(false);
+        }
+    };
+
+    useEffect(() => {
+        // Add event listener for scroll events
+        window.addEventListener('scroll', showContact);
+
+        // Clean up the event listener on component unmount
+        return () => {
+            window.removeEventListener('scroll', showContact);
+        };
+    }, []); 
     return (
         <div className='tiles'>
             <h2>Tiles gallery</h2>
@@ -78,11 +97,16 @@ const TilesPage = () => {
                     <img src={image_2} alt="IMG" />
                 </div>
             </div>
-            <div className="btn_con">
+            {
+                screenDown? <div className="btn_con">
                 <button className='btn'>
-                    <a href="https://wa.link/ph3nic" target="_blank">Contact us</a>
+                    <a href="https://wa.link/ph3nic" target="_blank">
+                        <img src={whatsapp_Icon} alt="" />
+                        Contact us
+                    </a>
                 </button>
-            </div>
+            </div>:null
+            }
         </div>
     )
 }

@@ -2,6 +2,7 @@
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
+    position: relative;
 }
 .sanitary_fittings h2{
     color: lightgray;
@@ -39,18 +40,27 @@
     margin-bottom: 30px;
 }
 .sanitary_fittings .btn {
-    background-color: #1E3240;
+    background-color: transparent;
     border: none;
     padding: 15px 30px;
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 10px;
+    z-index: 99;
 }
 .sanitary_fittings .btn a {
     background-color: #1E3240;
     color: #ffff;
     text-decoration: none;
+    position: fixed;
+    top: 70%;
+    right: 5%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 

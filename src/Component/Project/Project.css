@@ -37,6 +37,8 @@
     flex-basis: 49.3%;
     min-width: 300px;
     height: 400px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
 }
 
 .two_colum img {

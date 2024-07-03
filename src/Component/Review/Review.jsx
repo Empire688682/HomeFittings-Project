@@ -31,7 +31,7 @@ const Review = () => {
 
     return (
         <div className='review'>
-            <h1>Happy Client</h1>
+            <h1>Happy Clients</h1>
             <p>What Customers Says About Us</p>
             <div className="main_content">
                 <div className="two_col left">

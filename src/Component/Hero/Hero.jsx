@@ -12,13 +12,13 @@ const Hero = () => {
         <div className='hero_section'>
             <div className="hero_content">
                 <div ref={cl1Ref} className={cl1View ? "left_colum observer" : "left_colum"}>
-                    <h2>Dealers of Tile & Sanitary Ware</h2>
+                    <h2>Dealers of Tiles & Sanitary Wares</h2>
                     <div className="text_arrow">
                         <p>Make your dream home with us</p>
                         <img src={Arrow_01} alt="Arrow" />
                     </div>
                     <div className="btn_links">
-                        <NavLink style={{ textDecoration: "none" }} className='btn_1' to="/project">Our Project</NavLink>
+                        <NavLink style={{ textDecoration: "none" }} className='btn_1' to="/project">Our Projects</NavLink>
                         <NavLink style={{ textDecoration: "none" }} className='btn_2' to="/contact">Contact</NavLink>
                     </div>
                 </div>

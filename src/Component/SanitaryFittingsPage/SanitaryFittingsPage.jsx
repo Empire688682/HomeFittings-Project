@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './SanitaryFittingsPage.css';
 import image_1 from '../Assets/sanitry_1.png'
 import image_2 from '../Assets/sanitry_2.png'
@@ -26,8 +26,27 @@ import image_23 from '../Assets/sanitry_23.jpeg'
 import image_24 from '../Assets/sanitry_24.jpeg'
 import image_25 from '../Assets/sanitry_25.jpeg'
 import image_26 from '../Assets/sanitry_26.jpeg'
+import whatsapp_Icon from '../Assets/whatsapp_icon_colored.png';
 
 const SanitaryFittingsPage = () => {
+    const [screenDown, setScreenDown] = useState(false);
+    const showContact = () => {
+        if (window.scrollY > 500) {
+            setScreenDown(true);
+        } else {
+            setScreenDown(false);
+        }
+    };
+
+    useEffect(() => {
+        // Add event listener for scroll events
+        window.addEventListener('scroll', showContact);
+
+        // Clean up the event listener on component unmount
+        return () => {
+            window.removeEventListener('scroll', showContact);
+        };
+    }, []); 
     return (
         <div className='sanitary_fittings'>
             <h2>Sanitary fittings</h2>
@@ -113,11 +132,16 @@ const SanitaryFittingsPage = () => {
                     <img src={image_13} alt="IMG" />
                 </div>
             </div>
-            <div className="btn_con">
+            {
+                screenDown? <div className="btn_con">
                 <button className='btn'>
-                    <a href="https://wa.link/ph3nic" target="_blank">Contact us</a>
+                    <a href="https://wa.link/ph3nic" target="_blank">
+                        <img src={whatsapp_Icon} alt="" />
+                        Contact us
+                    </a>
                 </button>
-            </div>
+            </div>:null
+            }
         </div>
     )
 }

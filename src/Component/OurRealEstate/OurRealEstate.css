@@ -19,6 +19,8 @@
     position: relative;
     cursor: pointer;
     overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
 }
 .main_content .two_col img{
     width: 100%;

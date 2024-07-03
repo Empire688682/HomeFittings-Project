@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './DoorsPage.css';
 import image_1 from '../Assets/door_1.png';
 import image_2 from '../Assets/door_2.png';
@@ -25,8 +25,28 @@ import image_22 from '../Assets/door_22.png';
 import image_23 from '../Assets/door_23.png';
 import image_24 from '../Assets/door_24.png';
 import image_25 from '../Assets/door_25.png';
+import whatsapp_Icon from '../Assets/whatsapp_icon_colored.png';
 
 const DoorsPage = () => {
+
+    const [screenDown, setScreenDown] = useState(false)
+    const showContact = () => {
+        if (window.scrollY > 500) {
+            setScreenDown(true);
+        } else {
+            setScreenDown(false);
+        }
+    };
+
+    useEffect(() => {
+        // Add event listener for scroll events
+        window.addEventListener('scroll', showContact);
+
+        // Clean up the event listener on component unmount
+        return () => {
+            window.removeEventListener('scroll', showContact);
+        };
+    }, []); // Empty dependency array to ensure this runs once
     return (
         <div className='doors'>
             <h2>Doors gallery</h2>
@@ -109,11 +129,16 @@ const DoorsPage = () => {
                     <img src={image_1} alt="IMG" />
                 </div>
             </div>
-            <div className="btn_con">
+            {
+                screenDown? <div className="btn_con">
                 <button className='btn'>
-                    <a href="https://wa.link/ph3nic" target="_blank">Contact us</a>
+                    <a href="https://wa.link/ph3nic" target="_blank">
+                        <img src={whatsapp_Icon} alt="" />
+                        Contact us
+                    </a>
                 </button>
-            </div>
+            </div>:null
+            }
         </div>
     )
 }

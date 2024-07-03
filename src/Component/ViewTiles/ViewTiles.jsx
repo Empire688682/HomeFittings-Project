@@ -1,7 +1,7 @@
 import React from 'react'
 import './ViewTiles.css';
-import img_1 from '../Assets/tile_1.png';
-import img_2 from '../Assets/tile_2.png';
+import img_1 from '../Assets/image_data_7.jpeg';
+import img_2 from '../Assets/image_data_8.jpeg';
 import arrow_icon from '../Assets/right-arrow.png'
 import { NavLink } from 'react-router-dom';
 import { useInView } from "react-intersection-observer";
