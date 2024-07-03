@@ -11,7 +11,7 @@ const Review = () => {
             ScrollReveal().reveal('.left', {
               delay: 500,
               distance: '50px',
-              duration: 2000,
+              duration: 1000,
               easing: 'ease-in-out',
               origin: 'left',
             });
