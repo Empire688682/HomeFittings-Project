@@ -21,6 +21,7 @@
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 0 0 2.5px;
+    display: flex;
 }
 .main_content .two_col img{
     width: 100%;

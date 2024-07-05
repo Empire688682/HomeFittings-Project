@@ -71,8 +71,9 @@ const Footer = () => {
                 <div className="small_col">
                     <h2>SOCIAL MEDIA</h2>
                     <div className="content">
-                        <a href="https://www.facebook.com" className="social_link" target="_blank" rel="noopener noreferrer">Facebook </a>
+                        <a href="https://www.facebook.com/profile.php?id=61561737755645&mibextid=ZbWKwL" className="social_link" target="_blank" rel="noopener noreferrer">Facebook </a>
                         <a href="https://wa.link/ph3nic" className="social_link" target="_blank" rel="noopener noreferrer"> WhatsApp </a>
+                        <a href="https://vm.tiktok.com/ZMrBqjwHY/" className="social_link" target="_blank" rel="noopener noreferrer"> Tiktok</a>
                         <a href="https://www.instagram.com/homefittings1?igsh=OW03dGtueGY0ZTA=" className="social_link" target="_blank" rel="noopener noreferrer"> Instagram</a>
                     </div>
                 </div>
