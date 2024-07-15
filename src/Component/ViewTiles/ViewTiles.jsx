@@ -30,7 +30,7 @@ const ViewTiles = () => {
             </div>
             <div className="btn_con">
                 <button className='btn'>
-                    <NavLink onClick={scrollToTop} style={{ textDecoration: "none" }} className='btn' to="/Tgallery">
+                    <NavLink onClick={scrollToTop} style={{ textDecoration: "none" }} className='btn' to="/tgallery">
                         All Tiles
                         <img src={arrow_icon} alt="" />
                     </NavLink>

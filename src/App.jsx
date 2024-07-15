@@ -19,10 +19,10 @@ const App = () => {
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/project' element={<Project/>}/>
-          <Route path='/Sgallery' element={<SanitaryFittingsPage/>}/>
-          <Route path='/Rgallery' element={<RealEstatePage/>}/>
-          <Route path='/Dgallery' element={<DoorsPage/>}/>
-          <Route path='/Tgallery' element={<TilesPage/>}/>
+          <Route path='/sgallery' element={<SanitaryFittingsPage/>}/>
+          <Route path='/rgallery' element={<RealEstatePage/>}/>
+          <Route path='/dgallery' element={<DoorsPage/>}/>
+          <Route path='/tgallery' element={<TilesPage/>}/>
         </Routes>
         <Footer/>
     </div>

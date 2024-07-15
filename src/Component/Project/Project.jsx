@@ -33,7 +33,7 @@ const Project = () => {
       </div>
       <div className="btn_con">
         <button className='btn'>
-        <NavLink onClick={scrollToTop} style={{textDecoration:"none"}} className='btn' to="/Sgallery">
+        <NavLink onClick={scrollToTop} style={{textDecoration:"none"}} className='btn' to="/sgallery">
           All Fittings
           <img src={arrow_icon} alt=""/>
         </NavLink>

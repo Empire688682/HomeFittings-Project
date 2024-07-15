@@ -34,7 +34,7 @@ const OurRealEstate = () => {
             </div>
             <div className="btn_con">
                 <button className='btn'>
-                    <NavLink onClick={scrollToTop} style={{ textDecoration: "none" }} className='btn' to="/Rgallery">
+                    <NavLink onClick={scrollToTop} style={{ textDecoration: "none" }} className='btn' to="/rgallery">
                         All Properties
                         <img src={arrow_icon} alt="" />
                     </NavLink>

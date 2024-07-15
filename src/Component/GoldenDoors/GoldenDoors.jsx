@@ -30,7 +30,7 @@ const GoldenDoors = () => {
       </div>
       <div className="btn_con">
         <button className='btn'>
-          <NavLink onClick={scrollToTop} style={{ textDecoration: "none" }} className='btn' to="/Dgallery">
+          <NavLink onClick={scrollToTop} style={{ textDecoration: "none" }} className='btn' to="/dgallery">
             All Doors
             <img src={arrow_icon} alt="" />
           </NavLink>
